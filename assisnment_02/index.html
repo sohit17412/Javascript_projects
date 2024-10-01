@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>forgot</title>
+  </head>
+  <body>
+    <!-- This is a single-line comment -->
+     
+    <div class="container">  
+      <div class="division">
+        <div class="child1">
+          <div class="division2">
+            <div class="imgg">
+              <img src="image.webp" alt="not found" />
+            </div>
+          </div>
+
+          <div class="division2" id="division4">
+            <div class="division3">
+              <div class="sign">
+                <div class="logo">
+                  <img src="prashant logo.png" alt="not found" />
+                </div>
+                <input
+                  type="button"
+                  onclick="fn()"
+                  id="btnsave"
+                  value="Sign In"
+                />
+              </div>
+              <div class="sign"></div>
+              <input type="button" onclick="fn()" id="btnpas" value="Forgot" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="division" id="golu"></div>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+    const formd = document.getElementById("golu");
+    const btn = document.getElementById("btnsave");
+    const forgot = document.getElementById("btnpas");
+    btn.addEventListener("click", function fn() {
+      formd.innerHTML = ` <div class="outer-box">
+      <div class="inner-box">
+          
+          <main class="signup-body">
+            <header class="signup-header"></header>
+              <h1>Let Me Know</h1>
+              <p id="time"> It just take 30 seconds</p>
+          </header>
+              <form action="#">
+                  <p>
+                  <label for="fullname">Full name</label><br>
+                  <input ty pe="text" id="fullname" placeholder="Prashant verma" required>
+              </p>
+              <p>
+                  <label for="email">Email</label><br>
+                  <input type="email" id="email" placeholder="abc@gmail.com" required>
+              </p >
+              <p>
+                  <label for="password">Enter your password</label><br>
+                  <input type="password" id="password" placeholder="Enter your password" required>
+              </p>
+              <p>
+                  <input type="submit" id="submit"  value="Get My Profile">
+              </p>
+
+              </form>
+          </main>
+          
+        
+      </div>
+    </div>`;
+    });
+
+    forgot.addEventListener("click", function fn() {
+      formd.innerHTML = ` <div class="outer-box">
+      <div class="inner-box">
+          
+          <main class="signup-body">
+            <header class="signup-header"></header>
+              <h1>Set Password</h1>
+              <p id="time"> Forgot Password ?</p>
+          </header>
+              <form action="#">
+                  <p>
+                  <label for="fullname">Full name</label><br>
+                  <input ty pe="text" id="fullname" placeholder="Prashant verma" required>
+              </p>
+              <p>
+                  <label for="email">Verify Email</label><br>
+                  <input type="email" id="email" placeholder="abc@gmail.com" required>
+              </p >
+              <p>
+                  <label for="password">Reset password</label><br>
+                  <input type="password" id="password" placeholder="Enter your password" required>
+              </p>
+              <p>
+                  <input type="submit" id="submit"  value="Update Password">
+              </p>
+
+              </form>
+          </main>
+          
+        
+      </div>
+    </div>`;
+    });
+  </script>
+</html>

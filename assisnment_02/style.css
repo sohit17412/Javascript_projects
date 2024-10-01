@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* nav*/
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+.container {
+  padding: 1.25rem;
+
+  height: 100vh;
+}
+
+.division {
+  width: 50%;
+  height: 43.75rem;
+  float: left;
+}
+
+.child1 {
+  border-radius: 2px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  height: 25rem;
+  width: 31.25rem;
+  position: relative;
+  top: 25%;
+  margin: 0 auto;
+}
+.division2 {
+  width: 50%;
+  height: 25rem;
+  float: left;
+}
+#division4 {
+  background-color: #97c0d773;
+}
+.imgg img {
+  width: 15.625rem;
+  object-fit: cover;
+  height: 25rem;
+}
+.logo img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  position: relative;
+  bottom: 50px;
+  border-radius: 50%;
+}
+
+.division3 {
+  position: relative;
+  width: 150px;
+
+  top: 22%;
+  left: 17%;
+}
+#btnsave {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px;
+  color: aliceblue;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 32, 121, 1) 0%,
+    rgba(5, 106, 176, 1) 0%,
+    rgba(0, 212, 255, 1) 44%
+  );
+
+  cursor: pointer;
+}
+#btnsave:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(3, 12, 47) 0%,
+    rgb(2, 40, 67) 0%,
+    rgb(2, 92, 110) 44%
+  );
+}
+#btnpas {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px;
+  color: antiquewhite;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 32, 121, 1) 0%,
+    rgba(176, 5, 60, 1) 0%,
+    rgba(255, 0, 43, 1) 48%
+  );
+  cursor: pointer;
+}
+
+#btnpas:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 32, 121, 1) 0%,
+    rgb(108, 4, 37) 0%,
+    rgb(109, 4, 21) 48%
+  );
+  cursor: pointer;
+}
+
+/*******/
+
+.outer-box {
+  width: 100vw;
+  height: 100vh;
+
+  color: #212121;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #fffefc;
+  position: relative;
+
+  top: 8px;
+}
+
+.signup-body {
+  margin: 20px 0;
+}
+.signup-body p {
+  margin: 10px 0;
+}
+p {
+  color: rgba(0, 0, 0, 0.488);
+}
+
+.signup-body input {
+  width: 100%;
+
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 4px;
+}
+
+.inner-box {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  top: 24%;
+  right: 10%;
+  padding: 20px 20px;
+  background-color: #97c0d773;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  margin-left: 18%;
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#time {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+input:hover {
+  border: 3px solid #5b6af0;
+}
+
+#submit {
+  background-color: #6a5dbe;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 50px;
+  color: beige;
+  border: none;
+}
+
+#submit:hover {
+  background-color: #4e04e1;
+}
+
+.inner-box:hover {
+  border-color: #046f96;
+}
+
+#signin:hover {
+  color: aliceblue;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(5, 15, 58) 0%,
+    rgb(3, 96, 162) 0%,
+    rgb(3, 48, 57) 44%
+  );
+}
